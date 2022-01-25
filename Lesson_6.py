@@ -50,5 +50,5 @@ print(a)
 
 # Дан произвольный список. Представьте его в обратном порядке.
 l = ['a', 'b', 'c', 'd']
-for i in reversed(l):
-    print(i, end=' ')
+l.reverse()
+print(l)
